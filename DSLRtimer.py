@@ -41,9 +41,9 @@ parser.add_argument('--wait', '-w', default=5,
 parser.add_argument('--count', '-c', default=1,
                     help='exp. counts (default: 1')
 parser.add_argument('--mode', '-m', default='bulb',
-                    help='mode bulb|pulse (default: bulb)')
+                    help='mode bulb|pulse for Pentax  (default: bulb)')
 parser.add_argument('--lock', '-l', default=0,
-		    help='pre mirror lock sec. - only in pulse mode (defsult: 0 is disable')
+		    help='pre mirror lock sec. - only in pulse mode Pentax DSLR (defsult: 0 is disable')
 
 args = parser.parse_args()
 
